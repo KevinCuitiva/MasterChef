@@ -32,4 +32,4 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'masterchef-web-app'
-          package: target/Laboratorio-Master-Chef-0.0.1-SNAPSHOT.jar
+          package: target/*.jar
